@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlazeBreeze Header</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>BlazeBreeze</h1>
+            </div>
+            <div class="search-icons">
+                <input type="text" placeholder="Search">
+                <i class="fa fa-search"></i>
+                <div class="icon-container">
+                    <i class="fa fa-user"></i>
+                    <div class="tooltip">Account</div>
+                </div>
+                <div class="icon-container">
+                    <i class="fa fa-heart"></i>
+                    <div class="tooltip">My Wishlist</div>
+                </div>
+                <div class="icon-container">
+                    <i class="fa fa-shopping-cart"></i>
+                    <div class="tooltip">Cart</div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="content-wrapper">
+        <aside>
+            <ul class="menu">
+                <li>
+                    <a href="#" class="menu-item">Categories <span class="arrow">▶</span></a>
+                    <ul class="submenu">
+                        <li><input type="checkbox" id="coats"><label for="coats">Coats</label></li>
+                        <li><input type="checkbox" id="jackets"><label for="jackets">Jackets</label></li>
+                        <li><input type="checkbox" id="leather-jackets"><label for="leather-jackets">Leather Jackets</label></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" class="menu-item">Sleeves <span class="arrow">▶</span></a>
+                    <ul class="submenu">
+                        <li><input type="checkbox" id="long-sleeves"><label for="long-sleeves">Long Sleeves</label></li>
+                        <li><input type="checkbox" id="sleeveless"><label for="sleeveless">Sleeveless</label></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" class="menu-item">Size <span class="arrow">▶</span></a>
+                    <ul class="submenu">
+                        <li><input type="checkbox" id="size-s"><label for="size-s">S</label></li>
+                        <li><input type="checkbox" id="size-m"><label for="size-m">M</label></li>
+                        <li><input type="checkbox" id="size-l"><label for="size-l">L</label></li>
+                        <li><input type="checkbox" id="size-xl"><label for="size-xl">XL</label></li>
+                        <li><input type="checkbox" id="size-xxl"><label for="size-xxl">XXL</label></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" class="menu-item">Fabric <span class="arrow">▶</span></a>
+                    <ul class="submenu">
+                        <li><input type="checkbox" id="polyester"><label for="polyester">Polyester</label></li>
+                        <li><input type="checkbox" id="leather"><label for="leather">Leather</label></li>
+                        <li><input type="checkbox" id="cotton"><label for="cotton">Cotton</label></li>
+                        <li><input type="checkbox" id="nylon"><label for="nylon">Nylon</label></li>
+                        <li><input type="checkbox" id="organic-cotton"><label for="organic-cotton">Organic Cotton</label></li>
+                        <li><input type="checkbox" id="wool"><label for="wool">Wool</label></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" class="menu-item">Color <span class="arrow">▶</span></a>
+                    <ul class="submenu">
+                        <li><input type="checkbox" id="green"><label for="green">Green</label></li>
+                        <li><input type="checkbox" id="black"><label for="black">Black</label></li>
+                        <li><input type="checkbox" id="blue"><label for="blue">Blue</label></li>
+                        <li><input type="checkbox" id="brown"><label for="brown">Brown</label></li>
+                        <li><input type="checkbox" id="grey"><label for="grey">Grey</label></li>
+                        <li><input type="checkbox" id="red"><label for="red">Red</label></li>
+                        <li><input type="checkbox" id="orange"><label for="orange">Orange</label></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" class="menu-item">Price <span class="arrow">▶</span></a>
+                    <ul class="submenu">
+                        <li><input type="checkbox" id="price-1501-2000"><label for="price-1501-2000">1501-2000</label></li>
+                        <li><input type="checkbox" id="price-2001-4000"><label for="price-2001-4000">2001-4000</label></li>
+                        <li><input type="checkbox" id="price-4001-6000"><label for="price-4001-6000">4001-6000</label></li>
+                        <li><input type="checkbox" id="price-6001-above"><label for="price-6001-above">6001-above</label></li>
+                    </ul>
+                </li>
+            </ul>
+        </aside>
+        <main>
+            <section class="banner">
+                <div class="slideshow-container">
+                    <div class="mySlides fade">
+                        <img src="jacket1.jpg" style="width:100%; height:auto;">
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="jacket2.jpg" style="width:100%; height:auto;">
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="jacket3.jpg" style="width:100%; height:auto;">
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="jacket4.jpg" style="width:100%; height:auto;">
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="jacket5.jpg" style="width:100%; height:auto;">
+                    </div>
+                    <!-- Navigation Arrows -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                <!-- Dots -->
+                <div class="dot-container">
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+            </section>
+            <section class="products">
+                <div class="container">
+                    <div class="product-list">
+                        <!-- Example products -->
+                        <div class="product-item">
+                            <img src="jacket1.jpg" alt="Jacket 1">
+                            <p>Jacket 1</p>
+                            <p>599</p>
+                            <p>S M L XL XXL</p>
+                            <p>Warm and stylish jacket for all occasions.</p>
+                            <button>Add to Cart</button>
+                        </div>
+                        <div class="product-item">
+                            <img src="jacket2.jpg" alt="Jacket 2">
+                            <p>Jacket 2</p>
+                            <p>699</p>
+                            <p>S M L XL XXL</p>
+                            <p>Comfortable and durable jacket.</p>
+                            <button>Add to Cart</button>
+                        </div>
+                        <div class="product-item">
+                            <img src="jacket3.jpg" alt="Jacket 3">
+                            <p>Jacket 3</p>
+                            <p>999</p>
+                            <p>S M L XL XXL</p>
+                            <p>Fashionable jacket with excellent insulation.</p>
+                            <button>Add to Cart</button>
+                        </div>
+                        <div class="product-item">
+                            <img src="jacket4.jpg" alt="Jacket 4">
+                            <p>Jacket 4</p>
+                            <p>899</p>
+                            <p>S M L XL XXL</p>
+                            <p>Lightweight jacket for everyday wear.</p>
+                            <button>Add to Cart</button>
+                        </div>
+                        <div class="product-item">
+                            <img src="jacket5.jpg" alt="Jacket 5">
+                            <p>Jacket 5</p>
+                            <p>1199</p>
+                            <p>S M L XL XXL</p>
+                            <p>Stylish jacket with modern design.</p>
+                            <button>Add to Cart</button>
+                        </div>
+                        <div class="product-item">
+                            <img src="jacket6.jpg" alt="Jacket 6">
+                            <p>Jacket 6</p>
+                            <p>1099</p>
+                            <p>S M L XL XXL</p>
+                            <p>Durable jacket with premium materials.</p>
+                            <button>Add to Cart</button>
+                        </div>
+                        <div class="product-item">
+                            <img src="jacket7.jpg" alt="Jacket 7">
+                            <p>Jacket 7</p>
+                            <p>1199</p>
+                            <p>S M L XL XXL</p>
+                            <p>Insulated jacket for extreme cold.</p>
+                            <button>Add to Cart</button>
+                        </div>
+                        <div class="product-item">
+                            <img src="jacket8.jpg" alt="Jacket 8">
+                            <p>Jacket 8</p>
+                            <p>1299</p>
+                            <p>S M L XL XXL</p>
+                            <p>Water-resistant jacket with hood.</p>
+                            <button>Add to Cart</button>
+                        </div>
+                        <div class="product-item">
+                            <img src="jacket9.jpg" alt="Jacket 9">
+                            <p>Jacket 9</p>
+                            <p>$399</p>
+                            <p>S M L XL XXL</p>
+                            <p>All-weather jacket with adjustable features.</p>
+                            <button>Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <footer>
+    <section class="footer">
+        <div class="footer-row">
+          <div class="footer-col">
+            
+            <ul class="links">
+              <li><a href="#">ABOUT US</a></li>
+              <li><a href="#">FIND A STORE</a></li>
+              <li><a href="#">SIZE GUIDE</a></li>
+              <li><a href="#">TRACK ORDER</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <ul class="links">
+              <li><a href="#">WHERE IS MY ORDER?
+            </a></li>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">RESPONSIBLY CRAFTED</a></li>
+              
+            </ul>
+          </div>
+          <div class="footer-col">
+            <ul class="links">
+              <li><a href="#">ABOUT BESTSELLER
+            </a></li>
+              <li><a href="#">CONTACT US</a></li>
+              <li><a href="#">CARE GUIDE</a></li>
+              <li><a href="#">BLOG</a></li>
+              
+            </ul>
+            
+          </div>
+          <div class="footer-col">
+            <form action="#">
+              <input type="text" placeholder="Your email" required>
+              <button type="submit">SUBSCRIBE</button>
+            </form>
+            <div class="icons">
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-linkedin"></i>
+              <i class="fa-brands fa-github"></i>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+            <ul class="bottom-links">
+                <li><a href="#">PRIVACY POLICY | TERMS AND CONDITIONS</a></li>
+            </ul>
+        </div>
+      </section>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
